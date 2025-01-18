@@ -1,0 +1,186 @@
+:root {
+    --dark-blue: #001f3f;
+    --mid-blue: #3a6d8c;
+    --light-blue: #6a9ab0;
+    --coffee-colour: #ead8b1;
+    --pink-colour: #ffcfef;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdf3e6;
+}
+
+h1, h2, h3 {
+    font-family: 'Great Vibes', cursive;
+    color: #b5522e;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #b5522e;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 span {
+    color: #fdd835;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #b5522e;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #8d3e20;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff4e3;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b5522e;
+}
+
+.navbar a:hover {
+    color: #8d3e20;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffe8c9;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Shop Section */
+.shop {
+    padding: 50px 20px;
+    background-color: #fff4e3;
+}
+
+.sweets-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sweet-item {
+    background-color: #ffe8c9;
+    border: 1px solid #b5522e;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.sweet-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sweet-item span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #8d3e20;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #ffe1b8;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #b5522e;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #b5522e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #8d3e20;
+}
+
+/* Footer */
+.footer {
+    background-color: #b5522e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-content h1 span {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    color: #b5522e; /* Keep the same brown color for consistency */
+    font-weight: 700; /* Make it bold to emphasize the name */
+}
